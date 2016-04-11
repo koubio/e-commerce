@@ -1,5 +1,27 @@
+<header id="header" class="clearfix" data-current-skin="blue">
+  <ul class="header-inner">
+
+    <li class="logo hidden-xs">
+      <a href="/">ACME Store</a>
+    </li>
+
+    <li class="pull-right">
+    </li>
+  </ul>
+
+
+  <!-- Top Search Content -->
+  <div id="top-search-wrap">
+    <div class="tsw-inner">
+      <i id="top-search-close" class="zmdi zmdi-arrow-left"></i>
+      <input type="text">
+    </div>
+  </div>
+</header>
+
 <p>
   e-commerce Works!
 </p>
 
+<a [routerLink]="['ProductRoot']">Product List</a>
 <router-outlet></router-outlet>

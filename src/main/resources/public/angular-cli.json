@@ -1,3 +1,9 @@
 {
-  "routes": []
+  "routes": [
+    {
+      "routePath": "/product/...",
+      "component": "ProductRoot",
+      "componentPath": "./product/product-root.component"
+    }
+  ]
 }

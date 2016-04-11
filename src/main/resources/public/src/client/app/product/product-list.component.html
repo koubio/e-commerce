@@ -1,0 +1,12 @@
+<h2>Product List</h2>
+
+<ul>
+  <li *ngFor="#product of products">
+    <a
+      [routerLink]="['ProductDetail', { id: product.id }]">
+      <strong>{{product.id}}</strong>
+      -
+      {{product.name}}
+    </a>
+  </li>
+</ul>
